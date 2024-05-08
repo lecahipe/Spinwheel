@@ -102,7 +102,7 @@ function resetWheel()
     document.getElementById('pw1').className = "";  // Remove all colours from the power level indicators.
     document.getElementById('pw2').className = "";
     document.getElementById('pw3').className = "";
-    document.getElementById('results').innerHTML ="";
+    document.getElementById('results').innerHTML ="<br/>";
     
     wheelSpinning = false;          // Reset to false to power buttons and spin can be clicked again.
 }
